@@ -202,17 +202,6 @@ h4 {
     background-image: url("../images/catalog-background1.png");
 }
 
-/*.catalog-filter {
-    max-width: 1200px;
-    height: 485px;
-    background-size: cover;
-    color: #000000;
-    background-color: #ffffff;
-    background-image: url("../images/catalog-background1.png");
-
-}*/
-
-
 .catalog-filter-title {
     font-family: "PT Sans", sans-serif;
     font-style: normal;
@@ -230,7 +219,6 @@ h4 {
     height: 37px;
     background: #756257;
     border-radius: 4px;
-
     font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -260,9 +248,6 @@ h4 {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
-    /* basic/white */
-
     color: #FFFFFF;
     }
 
