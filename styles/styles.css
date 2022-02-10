@@ -19,7 +19,6 @@
     height: 100%;
   }
   
-
   body {
     margin: 0;
     display: flex;
@@ -54,7 +53,6 @@
   }
 
   .button-hotel-search {
-    
     background: #756257;
     width: 575px;
     height: 60px;
@@ -72,7 +70,6 @@
     text-transform: uppercase;
     text-decoration: none;
     margin: auto;
-    
   }
 
   .subscription-form-email {
@@ -90,7 +87,6 @@
     border-radius: 0px 10px 10px 0px;
     color: #FFFFFF!important;
     text-decoration: none;
-
   }
 
   /* Pages */
