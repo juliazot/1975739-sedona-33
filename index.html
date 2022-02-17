@@ -50,72 +50,68 @@
         <h1 class="visually-hidden">Седона</h1>
         <section class="wellcome">
           <img class="wellcome-text" src="images/wellcome123.png" width="458" alt="Wellcome to Sedona">
-          <!--<img class="index-background" src="" alt="Sedona Mountain" >-->
-        </section>
-        <section class ="divider">
           <img class="wellcome-divider" src="images/divider.png" width="1200" alt="divider">
         </section>
-        <h1 class="sedona-welcome"> Седона — небольшой городок в Аризоне, 
-        заслуживающий большего!
-         </h1>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
-        </p>
+
+        <section class="sedona-welcome">
+          <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </section>
+        
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
             <div class="advantages-cards">
               <div class="advantages-item advantages-blue advantages-numbers">
-                <h3>НАСТОЯЩИЙ
+                <h3 class="advantages-title no-icon-adv"> НАСТОЯЩИЙ
                  <br>ГОРОДОК</h3>
                 <span>— №1 —</span>
                 <p>
-                Седона — не аттракцион 
-                <br>для туристов, там течёт 
-                <br>своя жизнь
+                Седона — не аттракцион для туристов, там течёт своя жизнь
                 </p>
               </div>
               <div class="advantages-image">
                 <img src="images/photo-1.png" width="800" height="384" alt="Первая причина">
             </div>
-            <div class="advantages-item item-lightgrey">
-              <img src="images/icon-1.png"  alt="Жилье">
-              <h3>ЖИЛЬЁ</h3>
+            <div class="advantages-item item-lightgrey style-one">
+              <img class="advantages-icon" src="images/icon-1.png"  alt="Жилье">
+              <h3 class="advantages-title">ЖИЛЬЁ</h3>
               <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
             </div>
-            <div class="advantages-item">
-              <img src="images/icon-2.png" alt="бургер">
-              <h3>ЕДА</h3>
+            <div class="advantages-item style-one">
+              <img  class="advantages-icon" src="images/icon-2.png" alt="бургер">
+              <h3 class="advantages-title"> ЕДА</h3>
               <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
             </div>
-            <div class="advantages-item item-lightgrey">
-              <img src="images/icon-3.png" alt="подарок">
-              <h3>СУВЕНИРЫ</h3>
+            <div class="advantages-item item-lightgrey style-one">
+              <img  class="advantages-icon" src="images/icon-3.png" alt="подарок">
+              <h3 class="advantages-title">СУВЕНИРЫ</h3>
               <p>Не только китайского, но и местного производства!</p>
             </div>
             <div class="advantages-image">
               <img src="images/photo-2.png" width="800" height="384" alt="Вторая причина">
             </div>
             <div class="advantages-item advantages-blue advantages-image advantages-numbers">
-              <h3>ТАМ ЕСТЬ
+              <h3 class="advantages-title no-icon-adv">ТАМ ЕСТЬ
               <br>МОСТ ДЬЯВОЛА</h3>
               <span>— №2 —</span>
               <p>Да, по нему можно пройти!
                 <br> Если вы осмелитесь, 
                 <br>разумеется</p>
             </div>
-            <div class="advantages-item  item-lightgrey advantages-numbers">
-              <h3>НЕБОЛЬШАЯ
+            <div class="advantages-item  item-lightgrey advantages-numbers style-two">
+              <h3 class="advantages-title no-icon-adv">НЕБОЛЬШАЯ
                 <br>ПЛОЩАДь</h3>
               <span>— №3 —</span>
               <p>Все достопримечательности находятся очень близко</p>
             </div>
-              <div class="advantages-item item-road advantages-numbers">
-              <h3>КРАСИВАЯ
+              <div class="advantages-item item-road advantages-numbers style-two">
+              <h3 class="advantages-title no-icon-adv">КРАСИВАЯ
                 <br>ДОРОГА</h3>
                 <span>— №4 —</span>
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
-             <div class="advantages-item item-lightgrey advantages-numbers">
-                <h3>МАЛО
+             <div class="advantages-item item-lightgrey advantages-numbers style-two">
+                <h3 class="advantages-title no-icon-adv">МАЛО
                 <br>ТУРИСТОВ</h3>
                 <span>-№5-</span>
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
@@ -137,13 +133,14 @@
               <br>честное бойскаутское!
             </p>
             <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="subscription-form-email">
-              <input type="email" id="subscription-email" name="subscription-email" 
+            <div class="subscription-form-email">
+              <input type="email" class="email" id="subscription-email" name="subscription-email" 
               placeholder="Ваш e-mail">
               <button class="button button-submit" type="submit">Подписаться</button>
-            </p>
+            </div>
+            </form>
           </section>
-          
+    </main>
           <footer class="page-footer">
             <div class="page-footer-container">     
               <section class="footer-social">
@@ -166,11 +163,11 @@
                   </ul>
               </section>
               <h4 class="tel">+7 (812) 812-12-12</h4>
-              <a class="footer-link-logo" href="https://htmlacademy.ru/%22%3E">
+              <a class="footer-logo" href="https://htmlacademy.ru/%22%3E">
                 <img class="footer-link-logo" src="images/logo_htmlacademy.png" width="115" height="34" alt="htmlacademy"> 
             </div> 
            </footer>  
       </div>         
-    </main>
+    
   </body>
 </html>
