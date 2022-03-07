@@ -220,7 +220,6 @@ border: none;
 
 .navigation-user {
   max-width: 250px;
-  
 }
 
 .nav-user {
@@ -288,7 +287,6 @@ border: none;
 
 .button-want-here {
   padding: 9px 36px 8px;
-  
   background-color: #756257;
   border-radius: 4px;
   font-family: inherit;
@@ -412,11 +410,6 @@ line-height: 26px;
   margin-top: 89px;
 }
 
-/*
-  EDIT. Так я убрал лишнее пространство и могу управлять расстоянием у ссылки-лого
-*/
-
-
 .no-icon-adv {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -525,15 +518,13 @@ h1 {
   text-transform: uppercase;
 }
 
-
-
 .advantages-title {
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;  
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;  
 }
 
 p {
@@ -747,7 +738,6 @@ a[href^="tel:"] {
   margin-bottom: 30px;
 }
 
-
 .catalog-filter-group {
   border: none;
   padding: 0;
@@ -774,31 +764,32 @@ border-radius: 4px;
 
 input[type="checkbox" i]:hover {
   background: rgba(255, 255, 255, 0.6);
-
-  }
-  .control-input [type="checkbox"]:focus {
-    background: rgba(255, 255, 255, 0.6);
-/* special/cold/light */
+}
+  
+.control-input [type="checkbox"]:focus {
+background: rgba(255, 255, 255, 0.6);
 border: 3px solid #83B3D3;
 border-radius: 4px;
-    }
-    .control-input [type="checkbox"]:active {
-      border: none;
-      }
-      input[type="radio" i] {
-        width: 20px;
-        height: 20px;
-        }
-        .control-input [type="radio"]:focus {
-          border: 3px solid #83B3D3;
-          }     
+ }
+
+.control-input [type="checkbox"]:active {
+ border: none;
+}
+
+input[type="radio" i] {
+ width: 20px;
+ height: 20px;
+ }
+
+.control-input [type="radio"]:focus {
+ border: 3px solid #83B3D3;
+}     
 
 .grid-filter {
   display: grid;
   grid-template-columns: 287px 160px;
   grid-template-rows: 48px 23px;
   gap: 20px 81px;
-
 }
 
 .price-control {
@@ -1059,8 +1050,6 @@ border-radius: 4px;
   text-decoration: none;
 }
 
-
-
 .hotel-card-podrobnee {
   background: #756257;
   width: 133px;
@@ -1102,8 +1091,6 @@ background: #68A2CA;
 outline: 1px solid #756257;
 }
 
-
-
 .stars-rating {
   margin: 8px 0 0;
   width: 300px;
@@ -1115,8 +1102,6 @@ outline: 1px solid #756257;
   grid-area: 6/2/7/3;
   margin-top: 10px;
   margin-bottom: 10px;
-
-
 }
 
 .hotel-card-rating {
@@ -1171,7 +1156,6 @@ outline: none;
 .show-more {
   margin-top: 30px;
   margin-bottom: 30px;
-  ;
 }
 
 .pagination-show-more {
@@ -1240,7 +1224,6 @@ outline: none;
 
 .pagination-link:hover {
   background: #68A2CA;
-  
 }
 
 .pagination-link:focus {
@@ -1277,7 +1260,6 @@ outline: none;
 }
 
 .sorting-container {
-
   display: flex;
 }
 
@@ -1330,8 +1312,6 @@ opacity: 0.3;
   padding-left: 16px;
 }
 
-
-
 .subscribe-cat {
   display: flex;
   flex-direction: column;
@@ -1353,8 +1333,6 @@ opacity: 0.3;
   text-transform: uppercase;
   color: #000000;
 }
-
-
 
 .subscribe-cat h1 {
   width: 720px;
