@@ -282,7 +282,6 @@ letter-spacing: -0.5px;
 .email:focus {
   outline: 3px solid #83B3D3;
 border: none;
-
 }
 
 .button-submit {
