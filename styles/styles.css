@@ -189,7 +189,6 @@ color: #FFFFFF;
   width: 720px;
   height: 52px;
   margin: 0 auto 56px 231px;
-  
   font-size: 22px;
 line-height: 26px;
 }
@@ -272,7 +271,7 @@ line-height: 26px;
   border: none;
   padding: 0 0 0 22px;
   border-radius: 10px 0 0 10px;
-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
 }
 
 .email:hover {
@@ -281,7 +280,7 @@ letter-spacing: -0.5px;
 
 .email:focus {
   outline: 3px solid #83B3D3;
-border: none;
+  border: none;
 }
 
 .button-submit {
