@@ -93,7 +93,6 @@ line-height: 26px;
 
 .button-hotel-search:hover {
   background: #615048;
-
 }
 
 .button-hotel-search:focus {
@@ -156,7 +155,7 @@ line-height: 26px;
 
 .email:focus {
   outline: 3px solid #83B3D3;
-border: none;
+  border: none;
 
 }
 
@@ -169,7 +168,6 @@ border: none;
   line-height: 26px;
   align-items: center;
   text-transform: uppercase;
-  
   color: #FFFFFF;
   display: flex;
   justify-content: space-around;
