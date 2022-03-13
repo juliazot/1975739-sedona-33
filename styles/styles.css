@@ -149,7 +149,7 @@ p {
 
 .nav-fav {
   position: relative;
-  margin: 0 19px 0 6px;
+  margin: 0 19px 0 8px;
 }
 .circle {
   position: absolute;
@@ -712,25 +712,26 @@ a[href^="tel:"] {
   max-width: 1200px;
   height: 400px;
   background-image: url("../images/catalog-background1.png");
-  padding: 5px 71px
+  padding: 5px 72px
 }
+
+
 
 .inner-header-title {
   font-size: 60px;
   line-height: 68px;
   padding-top: 40px;
-
-  margin: 0 0 0px 0;
+  margin: 0;
   text-align: start;
-
-text-transform: none;
+  text-transform: none;
   
 }
 
 .breadcrumbs {
   display: flex;
   padding: 0;
-  margin: 0;
+  margin: -1px;
+  margin-left: 2px;
   color: #FFFFFF;
   list-style-type: none;
 }
@@ -738,7 +739,6 @@ text-transform: none;
 .breadcrumbs-item {
   font-size: 16px;
 line-height: 21px;
-
   margin-right: 11px;
   color: inherit;
 }
@@ -769,25 +769,25 @@ line-height: 21px;
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
-  margin: 40px 0 30px;
+  margin: 40px 0 30px 0;
   
 }
 
 .catalog-filter-infr {
-  padding: 0;
+  padding: 0 0 0 0;
 }
 
 .catalog-filter-item {
   list-style-type: none;
   padding-bottom: 13px;
-  padding-bottom: 13px;
+
   color: #FFFFFF;
 }
 
 .control {
   position: relative;
   display: block;
-  padding-left: 39px;
+  padding-left: 41px;
 }
 
 /* Mark */
@@ -822,7 +822,7 @@ border: none;
 .control-input[type="checkbox"]:checked + .control-mark::before,
 .control-input[type="checkbox"]:checked + .control-mark::after {
 position: absolute;
-left: 3px;
+left: 5px;
 top: 5px;
 width: 11px;
 height: 5px;
@@ -859,19 +859,20 @@ line-height: 23px;
 .grid-filter {
   display: grid;
   grid-template-columns: 287px 160px;
-  gap: 81px;
+  gap: 80px;
+  margin-left: 2px;
 }
 
 
 .range-scale {
   position: relative;
-  margin-top: 32px;
-border: 4px solid rgba(255, 255, 255, 0.3);
+  margin-top: 28px;
+border: 2px solid rgba(255, 255, 255, 0.3);
   
 }
 .range-bar {
   position: absolute;
-  border: 4px solid rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .range-toggle, .range-toggle:hover {
@@ -899,21 +900,22 @@ border-radius: 5px;
 
 .toggle-min {
   top: -12px;
-  left: -10px;
+  left: -2px;
 }
 
 .toggle-max {
   top: -12px;
-  right: -10px;
+  right: -7px;
 }
 
 
 .labels {
   display: flex;
+  margin-left: -2px
 }
 
 .catalog-filter-group {
-  margin: 0;
+  margin: 0 0 0 0;
   margin-bottom: 40px;
   padding: 0;
   border: none;
@@ -1041,6 +1043,7 @@ border-radius: 4px;
 .catalog-filter {
   display: grid;
   width: 528px;
+  margin-top: 5px;
   grid-template-columns: 216px 312px 287px 241px;
 }
 
