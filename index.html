@@ -23,7 +23,7 @@
                     <a class="navigation-link menu_active" href="index.html">Главная</a>
                 </li>
                 <li class="navigation-item menu">
-                <a class="navigation-link" href="aboutsedona.html">О седоне</a>
+                <a class="navigation-link" href="aboutsedona.html">О Cедоне</a>
                 </li>
                 <li class="navigation-item menu">
                     <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -139,7 +139,6 @@
                 </p>
                 <form class="subscription-form-index" action="https://echo.htmlacademy.ru/" method="post">
                     <input type="email" class="email" id="subscription-email" name="subscription-email" placeholder="Ваш e-mail">
-
                     <button class="button button-submit" type="submit">Подписаться</button>
 
                 </form>
@@ -197,6 +196,39 @@
                 </svg></a>
         </div>
     </footer>
+    <div class="modal-container">
+        <div class="modal modal-search">
+            <button class="modal-close-button">
+                <span class="visually-hidden">Закрыть</span>
+              </button>
+              <section class="modal-content">
+                <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+                <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+                    <p class="field-group">Дата заезда:
+                      <label class="visually-hidden" for="search-date-in">Дата заезда:</label>
+                      <input class="auth-form-field field-first" type="date" id="search-date-in" name="search-date-in" placeholder="27 апреля 2020">
+                    </p>
+                    <p class="field-group">Дата выезда:
+                      <label class="visually-hidden" for="search-date-out">Дата выезда:</label>
+                      <input class="auth-form-field field-first" type="date" id="search-date-out" name="search-date-out" placeholder="01 сентября 2021">
+                    </p>
+                    <div class="field-group-flex">
+                    <p class="field-group">Взрослые:
+                        <label class="visually-hidden" for="adults">Взрослые:</label>
+                        <input class="auth-form-field field-second" type="number" id="adults" name="adults">
+                      </p>
+                      <p class="field-group">Дети:
+                        <label class="visually-hidden" for="children">Дети:</label>
+                        <input class="auth-form-field field-second" type="number" id="children" name="children">
+                      </p>
+                      </div>
+                    <button class="button search-form-button" type="submit">Найти</button>
+                  </form>  
+            </section>
+        </div>
+    </div>
+
+
     </div>
   </div>
 </body>
