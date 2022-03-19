@@ -196,36 +196,111 @@
                 </svg></a>
         </div>
     </footer>
-   <!---- <div class="modal-container">
+    <div class="modal-container">
         <div class="modal modal-search">
             <button class="modal-close-button">
                 <span class="visually-hidden">Закрыть</span>
+                <svg class="close" aria-hidden="true" focusable="false" width="13" height="13" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"/>
+                    </svg>
               </button>
               <section class="modal-content">
                 <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
                 <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <p class="field-group">Дата заезда:
+                    <p class="field-group field-group-date">Дата заезда:
                       <label class="visually-hidden" for="search-date-in">Дата заезда:</label>
-                      <input class="auth-form-field field-first" type="date" id="search-date-in" name="search-date-in" placeholder="27 апреля 2020">
+                    
+                      <input class="modal-form-field field-first" type="text"  value="27 апреля 2020" id="search-date-in" name="search-date-in" placeholder="Укажите дату">
+                      <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.3">
+                        <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
+                        <path d="M14 2H12V0H11V2H4V0H3V2H1C0.4 2 0 2.4 0 3V6V7V14C0 14.5 0.4 15 1 15H14C14.5 15 15 14.5 15 14V7V6V3C15 2.4 14.5 2 14 2ZM14 14H1V7H14V14ZM1 6V3H3V5H4V3H11V5H12V3H14V6H1Z" fill="black"/>
+                        <path d="M7.5 10C7.8 10 8 9.8 8 9.5C8 9.2 7.8 9 7.5 9C7.2 9 7 9.2 7 9.5C7 9.8 7.2 10 7.5 10Z" fill="black"/>
+                        <path d="M9.5 10C9.8 10 10 9.8 10 9.5C10 9.2 9.8 9 9.5 9C9.2 9 9 9.2 9 9.5C9 9.8 9.2 10 9.5 10Z" fill="black"/>
+                        <path d="M5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11Z" fill="black"/>
+                        <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" fill="black"/>
+                        <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" fill="black"/>
+                        <path d="M7.5 11C7.2 11 7 11.2 7 11.5C7 11.8 7.2 12 7.5 12C7.8 12 8 11.8 8 11.5C8 11.2 7.8 11 7.5 11Z" fill="black"/>
+                        <path d="M9.5 11C9.2 11 9 11.2 9 11.5C9 11.8 9.2 12 9.5 12C9.8 12 10 11.8 10 11.5C10 11.2 9.8 11 9.5 11Z" fill="black"/>
+                        <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="black"/>
+                        <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="black"/>
+                        </g>
+                        </svg> 
+                      <span class="message error">Мы не можем отправить вас в прошлое.</span>
                     </p>
-                    <p class="field-group">Дата выезда:
+                    <p class="field-group field-group-date">Дата выезда:
                       <label class="visually-hidden" for="search-date-out">Дата выезда:</label>
-                      <input class="auth-form-field field-first" type="date" id="search-date-out" name="search-date-out" placeholder="01 сентября 2021">
+                      <input class="modal-form-field field-first" type="text" value="1 сентября 2021" id="search-date-out" name="search-date-out" placeholder="Укажите дату">
+                      <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.3">
+                        <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
+                        <path d="M14 2H12V0H11V2H4V0H3V2H1C0.4 2 0 2.4 0 3V6V7V14C0 14.5 0.4 15 1 15H14C14.5 15 15 14.5 15 14V7V6V3C15 2.4 14.5 2 14 2ZM14 14H1V7H14V14ZM1 6V3H3V5H4V3H11V5H12V3H14V6H1Z" fill="black"/>
+                        <path d="M7.5 10C7.8 10 8 9.8 8 9.5C8 9.2 7.8 9 7.5 9C7.2 9 7 9.2 7 9.5C7 9.8 7.2 10 7.5 10Z" fill="black"/>
+                        <path d="M9.5 10C9.8 10 10 9.8 10 9.5C10 9.2 9.8 9 9.5 9C9.2 9 9 9.2 9 9.5C9 9.8 9.2 10 9.5 10Z" fill="black"/>
+                        <path d="M5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11Z" fill="black"/>
+                        <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" fill="black"/>
+                        <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" fill="black"/>
+                        <path d="M7.5 11C7.2 11 7 11.2 7 11.5C7 11.8 7.2 12 7.5 12C7.8 12 8 11.8 8 11.5C8 11.2 7.8 11 7.5 11Z" fill="black"/>
+                        <path d="M9.5 11C9.2 11 9 11.2 9 11.5C9 11.8 9.2 12 9.5 12C9.8 12 10 11.8 10 11.5C10 11.2 9.8 11 9.5 11Z" fill="black"/>
+                        <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="black"/>
+                        <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="black"/>
+                        </g>
+                        </svg> 
+                      <span class="message info">На эти даты есть свободные номера. Пока есть.</span>
+
                     </p>
                     <div class="field-group-flex">
-                    <p class="field-group">Взрослые:
-                        <label class="visually-hidden" for="adults">Взрослые:</label>
-                        <input class="auth-form-field field-second" type="number" id="adults" name="adults">
-                      </p>
-                      <p class="field-group">Дети:
-                        <label class="visually-hidden" for="children">Дети:</label>
-                        <input class="auth-form-field field-second" type="number" id="children" name="children">
-                      </p>
+                        <p class="field-group field-group-age field-group-adults">
+                            <label for="adults">Взрослые:</label>
+                            <div class="minus-plus">
+                                <div class="button-minus-plus minus">
+                                    <button class="buttons-minpl button-minus">
+                                        <svg aria-hidden="true" focusable="false" width="13" height="1" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="1" d="M0 0L0 1L13 1V0L0 0Z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <input class="modal-form-field field-second" type="number" value="2" id="adults" name="adults">
+                                <div class="button-minus-plus plus plus-adults">
+                                    <button class="buttons-minpl button-plus">
+                                        <svg aria-hidden="true" focusable="false" width="13" height="13" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="1" d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </p>
+                        <p class="field-group field-group-age field-group-children">
+                            <span class="form-label form-label-icon">
+                                <label class="form-label" for="children">Дети:</label>
+                                <span class="tooltip">
+                                     <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">i</button>
+                                     <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                                </span>
+                            </span>
+                            <div class="minus-plus">
+                                <div class="button-minus-plus minus">
+                                    <button class="buttons-minpl button-minus">
+                                        <svg aria-hidden="true" focusable="false" width="13" height="1" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="1" d="M0 0L0 1L13 1V0L0 0Z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <input class="modal-form-field field-second" type="number" value="1" id="children" name="children">
+                                <div class="button-minus-plus plus">
+                                    <button class="buttons-minpl button-plus">
+                                        <svg aria-hidden="true" focusable="false" width="13" height="13" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="1" d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div> 
+                        </p>
                       </div>
                     <button class="button search-form-button" type="submit">Найти</button>
                   </form>  
             </section>
-        </div>-->
+        </div>
     </div>
 
 
