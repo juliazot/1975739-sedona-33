@@ -70,25 +70,28 @@ p {
 }
 
 .navigation-link-logo {
+  position: absolute;
+  margin: 0 0 0 71px;
   width: 139px;
-  margin: 0 135px 0px 71px;
+  z-index: 1;
 }
 
 .header-page-logo {
-  position: absolute;
+  margin: 0;
+ 
 }
 
 .navigation-list {
   position: relative;
   display: flex;
+  align-items: center;
   min-width: 629px;
   flex-wrap: wrap;
-  margin: 0px 0 0 34px;
+  margin: 0 0 0 239px;
   padding: 0;
   list-style-type: none;
   align-items: center;
 }
-
 
 .menu_active::after {
   content: '';
@@ -105,6 +108,7 @@ p {
 .menu_active {
   position: relative;
 }
+
 .navigation-link {
   position: relative;
   padding: 21px 17px;
@@ -197,7 +201,6 @@ p {
   line-height: 26px;
 }
 
-
 .button-hotel-search {
   background: #756257;
   width: 575px;
@@ -219,7 +222,6 @@ p {
 
 .button-hotel-search:hover {
   background: #615048;
-
 }
 
 .button-hotel-search:focus {
@@ -357,7 +359,6 @@ border-radius: 10px 0 0 10px;
 }
 
 .main-container {
-
   flex: 1 1 auto;
 }
 
@@ -437,7 +438,7 @@ line-height: 36px;
   margin-top: 28px;
   margin-bottom: 46px;
   font-size: 22px;
-line-height: 26px;
+  line-height: 26px;
 }
 
 .advantages-cards {
@@ -523,7 +524,6 @@ line-height: 26px;
   height: 63px;
   margin: 0 auto;
   margin-top: 29px;
-
 }
 
 .style-one p {
@@ -535,7 +535,7 @@ line-height: 26px;
 
 .style-two h3 {
   font-size: 24px;
-line-height: 28px;
+  line-height: 28px;
   margin-top: 100px;
 }
 
@@ -545,7 +545,7 @@ line-height: 28px;
   margin: 0 auto;
   margin-top: 30px;
   font-size: 18px;
-line-height: 21px;
+  line-height: 21px;
 }
 
 h1 {
@@ -584,7 +584,6 @@ a[href^="tel:"] {
 }
 
 .page-footer-container {
- 
   display: grid;
   grid-template-columns: 240px 720px 240px;
   justify-content: center;
@@ -605,22 +604,15 @@ a[href^="tel:"] {
   grid-column: 1;
   width: 140px;
   margin-left: 69px;
-  margin-top: 49px;
+  margin-top: 47px;
 }
 
 .footer-social-item {
   width: 25px;
-  height: 20px;
+  height: 25px;
   margin-right: 18px;
   fill: #68A2CA;
   text-align: center;
-}
-
-.footer-social-item:focus {
-  outline: 3px solid #83B3D3;
-  border-radius: 10px;
-  fill: #68A2CA;
-  padding: 3px;
 }
 
 .footer-social-link {
@@ -631,25 +623,28 @@ a[href^="tel:"] {
   background-position: center;
 }
 
+.footer-social-item a {
+  height: 18px;
+  padding: 3px;
+}
+
 .footer-social-item svg {
   fill: #83B3D3;
 }
-
-.footer-social-item svg:hover {
-  fill: #68A2CA;
+.footer-social-item a:hover {
+  fill: #756257;
 }
 
 .footer-social-item a:focus {
+  fill: #756257;
   outline: 3px solid #83B3D3;
-  padding: 3px;
   border-radius: 5px;
-  fill: #68A2CA;
 }
 
 .footer-social-item a:active {
+  fill: #756257;
+  border: none;
   opacity: 0.3;
-  outline: none;
-  border: 0;
 }
 
 .tel {
@@ -663,8 +658,7 @@ a[href^="tel:"] {
 
 .tel a:focus {
   color: #756257;
-  border: 3px solid #83B3D3;
-  box-sizing: border-box;
+  outline: 3px solid #83B3D3;
   border-radius: 10px;
 }
 
@@ -680,24 +674,27 @@ a[href^="tel:"] {
   margin-top: 43px;
   width: 115px;
   height: 34px;
-}
-
-.footer-logo {
   fill: #000000;
 }
 
-.footer-logo svg:hover {
+.footer-logo a {
+  width: 109px;
+  height: 28px;
+}
+
+.footer-logo a:hover {
   fill: #756257;
 }
 
-.footer-logo svg:focus {
+.footer-logo a:focus {
   fill: #756257;
-  outline: 3px solid #83B3D3;
+  border: 3px solid #83B3D3;
+  box-sizing: border-box;
   border-radius: 10px;
-  padding: 3px;
+  
 }
 
-.footer-logo svg:active {
+.footer-logo a:active {
   fill: #756257;
   opacity: 0.3;
 }
@@ -1584,19 +1581,18 @@ outline: none;
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 .modal-container:active {
-  display:block;
+  display: flex;
 }
-.modal-container-close {
-  display: none;
-}
+
 .modal {
   position: relative;
+  display: flex;
   margin: auto;
   padding: 62px 66px 70px 74px;
   background-color: #ffffff;
@@ -1917,15 +1913,15 @@ opacity: 1;
   background: #68A2CA;
 }
   
-  .search-form-button:focus {
-    background: #68A2CA;
-    outline: 3px solid #756257;
-    border: none;
+.search-form-button:focus {
+  background: #68A2CA;
+  outline: 3px solid #756257;
+  border: none;
 
-  }
+}
   
-  .search-form-button:active {
-    color: rgba(163, 192, 211, 0.3);
-    border: none;
-  }
+.search-form-button:active {
+  color: rgba(163, 192, 211, 0.3);
+  border: none;
+}
   
