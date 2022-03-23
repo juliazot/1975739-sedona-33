@@ -1087,7 +1087,7 @@ border-radius: 4px;
 
 
 .sorting {
-  margin: 28px 72px 55px 72px;
+  margin: 42px 72px 72px 72px;
   display: flex;
   align-items: center;
 }
@@ -1100,14 +1100,16 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-.sorting h1 {
+.sorting-left {
+  margin: 0px 191px 0 0;
   color: #000000;
   text-transform: uppercase;
   line-height: 39px;
-}
-
-.sorting-left {
-  margin-right: 191px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .sorting-type {
@@ -1156,9 +1158,8 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-
 .catalog-page {
-  margin: 0 62px 0 53px;
+  margin: 0px 62px 0 53px;
 }
 
 .hotel-list {
@@ -1552,7 +1553,7 @@ outline: none;
   color: #000000;
 }
 
-.subscribe-cat h1 {
+.subscribe-cat .title {
   width: 720px;
   min-height: 36px;
   margin: 0 0 0 60px;
@@ -1590,10 +1591,6 @@ outline: none;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.modal-container:active {
-  display: flex;
-}
-
 .modal {
   position: relative;
   display: flex;
@@ -1608,11 +1605,12 @@ outline: none;
 .modal-search {
   display: flex;
   justify-content: flex-start;
+  
 }
 
 .modal-close-button {
   position: absolute;
-  padding: 3px 0 0 0;
+  padding: 0;
   top: 56px;
   right: 67px;
   width: 53px;
@@ -1620,6 +1618,7 @@ outline: none;
   background-color: #F2F2F2;
   border-radius: 50%;
   border: none;
+  background-image: url("../images/close.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1883,7 +1882,6 @@ opacity: 1;
 
 .tooltip-text:before {
   content:'';
-  background-color: #FFFFFF;
   background-image: url("../images/triangle.svg");
   width: 19px;
   height: 9px;
@@ -1917,15 +1915,17 @@ opacity: 1;
   background: #68A2CA;
 }
   
-.search-form-button:focus {
-  background: #68A2CA;
-  outline: 3px solid #756257;
-  border: none;
+  .search-form-button:focus {
+    background: #68A2CA;
+    outline: 3px solid #756257;
+    border: none;
 
-}
+  }
   
-.search-form-button:active {
-  color: rgba(163, 192, 211, 0.3);
-  border: none;
-}
+  .search-form-button:active {
+    color: rgba(163, 192, 211, 0.3);
+    border: none;
+  }
   
+
+
