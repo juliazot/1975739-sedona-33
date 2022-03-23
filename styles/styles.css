@@ -84,6 +84,9 @@ p {
 .header-page-logo {
   position: absolute;
 }
+.header-page-logo:focus {
+  
+}
 .menu_active::after {
   content: '';
   display: block;
@@ -272,6 +275,7 @@ p {
 
 .email:focus {
 outline: 3px solid #83B3D3;
+border-radius: 10px 0 0 10px;
 }
 
 .button-submit {
@@ -302,6 +306,7 @@ outline: 3px solid #83B3D3;
 .button-submit:focus {
   background: #68A2CA;
   outline: 3px solid #756257;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .button-submit:active {
@@ -400,6 +405,7 @@ line-height: 36px;
   max-height: 411px;
   padding: 73px 200px 93px;
   max-width: 1200px;
+  background-color: #FFFFFF;
   background-image: url("../images/background.png");
 }
 
@@ -666,11 +672,11 @@ a[href^="tel:"] {
   grid-column: 3;
   margin-left: 53px;
   margin-top: 42px;
-  width: 160px;
-  height: 70px;
+  width: 115px;
+  height: 34px;
 }
 
-.footer-logo svg {
+.footer-logo {
   fill: #000000;
 }
 
@@ -696,6 +702,7 @@ a[href^="tel:"] {
   font-weight: normal;
   max-width: 1200px;
   height: 400px;
+  background-color: #FFFFFF;
   background-image: url("../images/catalog-background1.png");
   padding: 10px 0px 0 71px;
   
@@ -1484,11 +1491,9 @@ outline: none;
   font-size: 18px;
 line-height: 23px;
   color: #333333;
-  padding-top: 7px;
-  padding-bottom: 13px;
-  padding-left: 16px;
+  padding: 7px 0 13px 13px;
   margin-right: 72px;
-  letter-spacing: -1.4px;
+  letter-spacing: -1.1px;
 }
 .select-control-first:hover {
   border: 2px solid #83B3D3;
@@ -1569,6 +1574,7 @@ opacity: 0.3;
 }
 
 .modal-container {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1576,6 +1582,9 @@ opacity: 0.3;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
+}
+.modal-container:active {
+  display:block;
 }
 .modal-container-close {
   display: none;
@@ -1868,6 +1877,7 @@ opacity: 1;
 
 .tooltip-text:before {
   content:'';
+  background-color: #FFFFFF;
   background-image: url("../images/triangle.svg");
   width: 19px;
   height: 9px;
