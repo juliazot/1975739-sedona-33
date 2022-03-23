@@ -1605,7 +1605,6 @@ outline: none;
 .modal-search {
   display: flex;
   justify-content: flex-start;
-  
 }
 
 .modal-close-button {
@@ -1774,7 +1773,6 @@ outline: none;
   border-radius: 0;
   background: #F2F2F2;
   padding: 0px;
-  
 }
 
 .plus-adults{
@@ -1817,7 +1815,7 @@ opacity: 1;
 
 .buttons-minpl:active {
   border: none;
-  }
+}
 
 .field-second {
   display: flex;
@@ -1896,6 +1894,7 @@ opacity: 1;
   position: relative;
   padding-right: 25px;
 }
+
 .search-form-button {
   width: 575px;
   height: 60px;
@@ -1914,17 +1913,17 @@ opacity: 1;
   background: #68A2CA;
 }
   
-  .search-form-button:focus {
+.search-form-button:focus {
     background: #68A2CA;
     outline: 3px solid #756257;
     border: none;
 
-  }
+}
   
-  .search-form-button:active {
+.search-form-button:active {
     color: rgba(163, 192, 211, 0.3);
     border: none;
-  }
+}
   
 
 
