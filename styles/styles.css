@@ -72,13 +72,7 @@ p {
 .navigation-link-logo {
   position: absolute;
   margin: 0 0 0 71px;
-  width: 139px;
   z-index: 1;
-}
-
-.header-page-logo {
-  margin: 0;
- 
 }
 
 .navigation-list {
