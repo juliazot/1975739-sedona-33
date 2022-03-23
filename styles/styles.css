@@ -182,9 +182,16 @@ p {
   min-height: 325px;
 }
 
-.hotel-search h1 {
+.hotel-search .title {
   color: #000000;
   margin: 93px auto 28px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hotel-search p {
@@ -411,7 +418,7 @@ line-height: 36px;
   background-image: url("../images/background.png");
 }
 
-.subscribe h1 {
+.subscribe .title {
   width: 720px;
   min-height: 36px;
   margin: 0 auto;
@@ -443,12 +450,13 @@ line-height: 36px;
 }
 
 .advantages-icon {
-  margin-top: 88px;
+  margin-top: 89px;
 }
 
 .no-icon-adv {
   margin-top: 100px;
   margin-bottom: 27px;
+  
 }
 
 .advantages-item {
@@ -560,6 +568,7 @@ h1 {
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;  
+  line-height: 30px;
 }
 
 .sedona-welcome {
@@ -1200,6 +1209,7 @@ border-radius: 4px;
 
 .hotel-card-title {
   font-size: 24px;
+  font-weight: bold;
   line-height: 32px;
   margin: 10px 0;
 }

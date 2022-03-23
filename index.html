@@ -52,7 +52,7 @@
     </header>
     <main class="main-container main-index">
       <div class="page-container">
-        <h1 class="visually-hidden">Седона.</h1>
+        <span class="visually-hidden">Седона.</span>
         <section class="wellcome">
           <img class="wellcome-text" src="images/wellcome123.png" width="458" alt="Wellcome to Sedona">
           <img class="wellcome-divider" src="images/divider.png" width="1200" alt="divider">
@@ -62,12 +62,10 @@
           <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
         <section class="advantages">
-          <h2 class="visually-hidden">Преимущества</h2>
+          <span class="visually-hidden">Преимущества.</span>
           <div class="advantages-cards">
             <div class="advantages-item advantages-blue advantages-numbers">
-              <h3 class="advantages-title no-icon-adv"> НАСТОЯЩИЙ
-                                <br>ГОРОДОК 
-                            </h3>
+              <h2 class="advantages-title no-icon-adv"> НАСТОЯЩИЙ<br>ГОРОДОК </h2>
               <span>— №1 —</span>
               <p>Седона — не аттракцион для туристов, там течёт
                 <br> своя жизнь
@@ -78,20 +76,19 @@
             </div>
             <div class="advantages-item item-lightgrey style-one">
               <img class="advantages-icon" src="images/icon-1.svg" alt="Жильё.">
-              <h3 class="advantages-title">ЖИЛЬЁ</h3>
+              <h2 class="advantages-title">ЖИЛЬЁ</h2>
               <p>Рекомендуем пожить
-                <br>в настоящем мотеле,
-                <br>все как в кино!</p>
+                <br>в настоящем мотеле, все&nbsp;как&nbsp;в&nbsp;кино!</p>
             </div>
             <div class="advantages-item style-one">
               <img class="advantages-icon" src="images/icon-2.svg" alt="Бургер.">
-              <h3 class="advantages-title"> ЕДА</h3>
+              <h2 class="advantages-title"> ЕДА</h2>
               <p>Всегда заказывайте
                 <br>топовый фирменный бургер, Вы не разочаруетесь!</p>
             </div>
             <div class="advantages-item item-lightgrey style-one">
               <img class="advantages-icon" src="images/icon-3.svg" alt="Подарок.">
-              <h3 class="advantages-title">СУВЕНИРЫ</h3>
+              <h2 class="advantages-title">СУВЕНИРЫ</h2>
               <p>Не только китайского,
                 <br>но и настоящего местного
                 <br>производства!</p>
@@ -110,37 +107,37 @@
               </p>
             </div>
             <div class="advantages-item  item-lightgrey advantages-numbers style-two">
-              <h3 class="advantages-title no-icon-adv">НЕБОЛЬШАЯ
+              <h2 class="advantages-title no-icon-adv">НЕБОЛЬШАЯ
                                 <br>ПЛОЩАДь
-                            </h3>
+                            </h2>
               <span>— №3 —</span>
               <p>Все достопримечательности находятся очень близко</p>
             </div>
             <div class="advantages-item item-road advantages-numbers style-two">
-              <h3 class="advantages-title no-icon-adv">КРАСИВАЯ
+              <h2 class="advantages-title no-icon-adv">КРАСИВАЯ
                                 <br>ДОРОГА
-                            </h3>
+                            </h2>
               <span>— №4 —</span>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
             <div class="advantages-item item-lightgrey advantages-numbers style-two">
-              <h3 class="advantages-title no-icon-adv">МАЛО
+              <h2 class="advantages-title no-icon-adv">МАЛО
                                 <br>ТУРИСТОВ
-                            </h3>
+                            </h2>
               <span>-№5-</span>
               <p>Большинство едет в Гранд Каньон и толпится там</p>
             </div>
           </div>
         </section>
-
         <section class="hotel-search">
-          <h1>Заинтересовались?</h1>
+          <div class="title">Заинтересовались?
+          </div>
           <p>&nbsp;&nbsp;&nbsp;Укажите предполагаемые даты поездки,
             <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a class="button button-hotel-search" href="#modal">Поиск гостиницы в Седоне</a>
+            <a class="button button-hotel-search" href="">Поиск гостиницы в Седоне</a>
         </section>
         <section class="subscribe">
-          <h1>Подпишитесь на рассылку</h1>
+          <div class="title">Подпишитесь на рассылку</div>
           <p class="p-index">Только полезная информация и никакого спама,
             <br>честное бойскаутское!
           </p>
@@ -154,7 +151,6 @@
     <footer class="page-footer">
       <div class="page-footer-container">
         <section class="footer-social">
-
           <ul class="social-list">
             <li class="footer-social-item">
               <a class="footer-social-link footer-social-tw" href="#">
@@ -205,7 +201,7 @@
       </div>
     </footer>
 
-    <div class="modal-container" name="modal">
+    <div class="modal-container">
       <div class="modal modal-search">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть.</span>
@@ -216,9 +212,8 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="field-group field-group-date">Дата заезда:
+            <div class="field-group field-group-date">Дата заезда:
               <label class="visually-hidden" for="search-date-in">Дата заезда:</label>
-
               <input class="modal-form-field field-first" type="text" value="27 апреля 2020" id="search-date-in" name="search-date-in" placeholder="Укажите дату">
               <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.3">
@@ -236,8 +231,8 @@
                 </g>
               </svg>
               <span class="message error">Мы не можем отправить вас в прошлое.</span>
-            </p>
-            <p class="field-group field-group-date">Дата выезда:
+            </div>
+            <div class="field-group field-group-date">Дата выезда:
               <label class="visually-hidden" for="search-date-out">Дата выезда:</label>
               <input class="modal-form-field field-first" type="text" value="1 сентября 2021" id="search-date-out" name="search-date-out" placeholder="Укажите дату">
               <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
@@ -256,9 +251,9 @@
                 </g>
               </svg>
               <span class="message info">На эти даты есть свободные номера. Пока есть.</span>
-            </p>
+            </div>
             <div class="field-group-flex">
-              <p class="field-group field-group-age field-group-adults">
+              <div class="field-group field-group-age field-group-adults">
                 <label for="adults">Взрослые:</label>
                 <div class="minus-plus">
                   <div class="button-minus-plus minus">
@@ -277,8 +272,8 @@
                     </button>
                   </div>
                 </div>
-              </p>
-              <p class="field-group field-group-age field-group-children">
+            </div>
+              <div class="field-group field-group-age field-group-children">
                 <span class="form-label form-label-icon">
                                 <label class="form-label" for="children">Дети:</label>
                                 <span class="tooltip">
@@ -303,7 +298,7 @@
                     </button>
                   </div>
                 </div>
-              </p>
+            </div>
             </div>
             <button class="button search-form-button" type="submit">Найти</button>
           </form>
