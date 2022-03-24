@@ -27,7 +27,7 @@
             <a class="navigation-link menu_active" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list">
+        <ul class="navigation-list-user">
           <li class="navigation-item nav-search">
             <a class="navigation-link" href="#">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18.05" height="18.1" xmlns="http://www.w3.org/2000/svg">
@@ -65,16 +65,16 @@
                     <path d="M4 10H5V7.5H7V10H8V6.5H4V10Z" />
                   </svg>
                 </a>
+                <img class="arrow-right" src="images/arrow-right.png" width="5" height="8" alt="Стрелка.">
+              
               </li>
+              
+                
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="index.html">
-                <img class="" src="images/nav-link.png" width="5" height="8" alt="Стрелка.">
-                </a>
-              </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Гостиницы</a>
+                <a class="breadcrumbs-link" href="#">Гостиницы</a>
               </li>
             </ul>
+            
           </header>
           <section class="catalog-hotels">
             <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами.</h2>
@@ -147,10 +147,10 @@
                     </div>
                     <div class="range-scale">
                       <div class="range-bar" style="left: 0px; width: 227px">
-                        <button class="range-toggle toggle-min">
+                        <button class="range-toggle toggle-min" type="button">
                           <span class="visually-hidden">Изменить минимальную цену.</span>
                         </button>
-                        <button class="range-toggle toggle-max">
+                        <button class="range-toggle toggle-max" type="button">
                           <span class="visually-hidden">Изменить максимальную цену.</span>
                         </button>
                       </div>
@@ -175,6 +175,7 @@
               <option value="expensive">Сначала дорогие</option>
               <option value="popular">Сначала популярные</option>
             </select>
+            <img class="arrow-down" src="images/arrow.png" width="12" height="7" alt="Развернуть."> 
 
             <a href="#" class="card-grid-toggle card-grid-toggle-current">
               <svg width="16" height="14" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -318,6 +319,7 @@
                 <option value="3">2</option>
                 <option value="4">1</option>
               </select>
+              <img class="arrow-down-two" src="../images/arrow.png" width="12" height="7" alt="Развернуть."> 
             </div>
           </div>
         </section>
@@ -333,8 +335,7 @@
         </section>
       
     </main>
-    <footer class="page-footer">
-      <div class="page-footer-container">
+    <footer>
         <section class="footer-social">
           <ul class="social-list">
             <li class="footer-social-item">
@@ -383,7 +384,6 @@
             <path d="M109.4 27.0001L105.8 18.1001H103.6L108.4 29.7001C108.1 30.6001 107.7 30.9001 106.7 30.9001H104.2V32.9001H106.7C108.5 32.9001 109.5 32.1001 110.2 30.3001L114.9 18.1001H112.8L109.4 27.0001Z" />
           </svg>
         </a>
-      </div>
     </footer>
     </div>
 </body>
