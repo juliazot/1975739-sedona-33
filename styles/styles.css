@@ -605,7 +605,7 @@ border-radius: 10px 0 0 10px;
   text-decoration: none;
 }
 
-footer {
+.footer-flex {
   display: grid;
   grid-template-columns: 240px 720px 240px;
   justify-content: center;
