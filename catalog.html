@@ -65,16 +65,12 @@
                     <path d="M4 10H5V7.5H7V10H8V6.5H4V10Z" />
                   </svg>
                 </a>
-                <img class="arrow-right" src="images/arrow-right.png" width="5" height="8" alt="Стрелка.">
-              
               </li>
-              
-                
+              <div class="breadcrumbs-next"></div>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="#">Гостиницы</a>
               </li>
             </ul>
-            
           </header>
           <section class="catalog-hotels">
             <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами.</h2>
@@ -176,7 +172,6 @@
               <option value="popular">Сначала популярные</option>
             </select>
             <img class="arrow-down" src="images/arrow.png" width="12" height="7" alt="Развернуть."> 
-
             <a href="#" class="card-grid-toggle card-grid-toggle-current">
               <svg width="16" height="14" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                 <path d="M4 0H0V6H4V0Z" />
@@ -329,6 +324,7 @@
             <br>честное бойскаутское!
           </p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="subscription-email"></label>
             <input type="email" class="email" id="subscription-email" name="subscription-email" placeholder="Ваш e-mail">
             <button class="button button-submit" type="submit">Подписаться</button>
           </form>
