@@ -761,19 +761,22 @@ border-radius: 10px 0 0 10px;
 
 .breadcrumbs-item {
   font-size: 16px;  
-  padding: 0px;
+  padding: 0;
   line-height: 21px;
-  margin: 1px 10px 0 0;
+  margin: 1px 26px 0 0;
   color: inherit;
 }
 
 .breadcrumbs-next{
+  position: absolute;
   width: 5px;
+  height: 8px;
   padding: 0;
-  margin: 0 10px 0 0;
-  background-image: url('../images/arrow-right.svg');
+  margin: 6px 0px 0 10px;
+  background: url('../images/arrow-right.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 5px 8px;
 }
 
 .breadcrumbs-link {
@@ -781,11 +784,11 @@ border-radius: 10px 0 0 10px;
   text-decoration: none;
 }
 
-.breadcrumbs-item svg{
+.home{
   fill: #FFFFFF;
 }
 
-.breadcrumbs-item:hover {
+.home:hover {
   opacity: 0.6;
 }
 
