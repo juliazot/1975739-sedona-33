@@ -210,14 +210,11 @@
               <section class="modal-content">
                 <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
                 <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <p class="field-group field-group-date">Дата заезда:
+                    <div class="field-group field-group-date">Дата заезда:
                       <label class="visually-hidden" for="search-date-in">Дата заезда:</label>
-                    
                       <input class="modal-form-field field-first" type="text"  value="27 апреля 2020" id="search-date-in" name="search-date-in" placeholder="Укажите дату">
-                      
-                      
                         <button class="choose-date-button" type="button">
-                            <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="calendar" aria-hidden="true" focusable="false" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.3">
                         <path d="M5.5 10C5.8 10 6 9.8 6 9.5C6 9.2 5.8 9 5.5 9C5.2 9 5 9.2 5 9.5C5 9.8 5.2 10 5.5 10Z" fill="black"/>
                         <path d="M14 2H12V0H11V2H4V0H3V2H1C0.4 2 0 2.4 0 3V6V7V14C0 14.5 0.4 15 1 15H14C14.5 15 15 14.5 15 14V7V6V3C15 2.4 14.5 2 14 2ZM14 14H1V7H14V14ZM1 6V3H3V5H4V3H11V5H12V3H14V6H1Z" fill="black"/>
@@ -234,7 +231,7 @@
                         </svg>  
                         </button>
                       <span class="message error">Мы не можем отправить вас в прошлое.</span>
-                    </p>
+                    </div>
                     <p class="field-group field-group-date">Дата выезда:
                       <label class="visually-hidden" for="search-date-out">Дата выезда:</label>
                       <input class="modal-form-field field-first" type="text" value="1 сентября 2021" id="search-date-out" name="search-date-out" placeholder="Укажите дату">
@@ -255,12 +252,10 @@
                         </g>
                         </svg>  
                         </button>
-
                       <span class="message info">На эти даты есть свободные номера. Пока есть.</span>
-
                     </p>
                     <div class="field-group-flex">
-                        <p class="field-group field-group-age field-group-adults">
+                        <div class="field-group field-group-age field-group-adults">
                             <label for="adults">Взрослые:</label>
                             <div class="minus-plus">
                                 <div class="button-minus-plus minus">
@@ -279,8 +274,8 @@
                                     </button>
                                 </div>
                             </div>
-                        </p>
-                        <p class="field-group field-group-age field-group-children">
+                        </div>
+                        <div class="field-group field-group-age field-group-children">
                             <span class="form-label form-label-icon">
                                 <label class="form-label" for="children">Дети:</label>
                                 <span class="tooltip">
@@ -305,7 +300,7 @@
                                     </button>
                                 </div>
                             </div> 
-                        </p>
+                        </div>
                       </div>
                     <button class="button search-form-button" type="submit">Найти</button>
                   </form>  

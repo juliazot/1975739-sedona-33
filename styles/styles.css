@@ -483,7 +483,7 @@ border-radius: 10px 0 0 10px;
 
 .advantages-icon {
   height: 76px;
-  margin: 88px 0 0 163px;;
+  margin: 88px 0 0 163px;
   background-repeat: no-repeat;
 }
 
@@ -496,6 +496,7 @@ border-radius: 10px 0 0 10px;
 }
 
 .gift {
+  margin-left: 167px;
   background-image: url("../images/icon-gift.svg");
 }
 
@@ -1672,7 +1673,6 @@ outline: none;
   background-color: #F2F2F2;
   border-radius: 50%;
   border: none;
-
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -1696,8 +1696,6 @@ outline: none;
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
@@ -1769,23 +1767,24 @@ outline: none;
 .field-group-age {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .field-group-adults {
-  width: 155px;
+ width: 370px;
   justify-content: space-between;
 }
 
 .field-group-children {
   position: relative;
-  width: 96px;
+  width: 250px;
 
 }
 
 .modal-form-field{
   position: relative;
   height:50px;
-  padding-left: 19px;
+  padding-left: 29px;
   background: #F2F2F2;
   border-radius: 4px;
   font-family: "PT Sans", sans-serif;
@@ -1824,8 +1823,6 @@ outline: none;
    right: 15px;
    border: none;
    cursor: pointer;
-   
-   
  }
 
 .minus-plus {
@@ -1896,7 +1893,7 @@ opacity: 1;
 .tooltip {
   position: absolute;
   top: 10px;
-  left: 52px;
+  left: 54px;
   width: 25px;
   height: 25px;
 }
