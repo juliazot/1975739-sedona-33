@@ -784,14 +784,13 @@ border-radius: 10px 0 0 10px;
   text-decoration: none;
 }
 
-.home{
+.breadcrumbs-item a{
   fill: #FFFFFF;
 }
 
-.home:hover {
+.breadcrumbs-item a:hover {
   opacity: 0.6;
 }
-
 
 .breadcrumbs-item a:focus {
   opacity: 1;
